@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-05-13T00:00:00Z",
+  "venues": [
+    {
+      "id": "neurips-2026",
+      "name": "Neural Information Processing Systems",
+      "acronym": "NeurIPS",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 309,
+      "categories": ["machine-learning", "deep-learning", "ai"],
+      "description": "Premier venue for machine learning and computational neuroscience. Oral and poster tracks; very competitive.",
+      "homepage": "https://neurips.cc",
+      "cfp_url": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "submission_system": "openreview",
+      "proceedings_publisher": "NeurIPS Foundation",
+      "location": { "city": "Vancouver", "country": "CA", "mode": "hybrid" },
+      "deadlines": {
+        "abstract": { "date": "2026-05-15T23:59:00-07:00", "status": "confirmed" },
+        "paper":    { "date": "2026-05-22T23:59:00-07:00", "status": "confirmed" }
+      },
+      "event_dates": { "start": "2026-12-08", "end": "2026-12-13" },
+      "acceptance_rate": "26%",
+      "history": [
+        { "year": 2025, "paper_deadline": "2025-05-22", "event_start": "2025-12-09" }
+      ]
+    },
+    {
+      "id": "icml-2026",
+      "name": "International Conference on Machine Learning",
+      "acronym": "ICML",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 285,
+      "categories": ["machine-learning", "deep-learning", "theory"],
+      "description": "Top ML conference covering theory, methods, and applications. Tighter venue scope than NeurIPS.",
+      "homepage": "https://icml.cc",
+      "cfp_url": "https://icml.cc/Conferences/2026/CallForPapers",
+      "submission_system": "openreview",
+      "proceedings_publisher": "PMLR",
+      "location": { "city": "Seoul", "country": "KR", "mode": "hybrid" },
+      "deadlines": {
+        "paper": { "date": "2026-01-30T23:59:00-08:00", "status": "confirmed" }
+      },
+      "event_dates": { "start": "2026-07-19", "end": "2026-07-25" },
+      "acceptance_rate": "27%",
+      "history": [
+        { "year": 2025, "paper_deadline": "2025-01-30", "event_start": "2025-07-13" }
+      ]
+    },
+    {
+      "id": "iclr-2027",
+      "name": "International Conference on Learning Representations",
+      "acronym": "ICLR",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 232,
+      "categories": ["deep-learning", "representation-learning", "machine-learning"],
+      "description": "OpenReview-native conference focused on representation learning. Public reviews are a defining feature.",
+      "homepage": "https://iclr.cc",
+      "cfp_url": "https://iclr.cc/Conferences/2027/CallForPapers",
+      "submission_system": "openreview",
+      "proceedings_publisher": "OpenReview",
+      "location": { "city": "Vienna", "country": "AT", "mode": "hybrid" },
+      "deadlines": {
+        "paper": { "date": "2026-09-25T23:59:00-07:00", "status": "expected" }
+      },
+      "event_dates": { "start": "2027-04-26", "end": "2027-04-30" },
+      "acceptance_rate": "32%",
+      "history": [
+        { "year": 2026, "paper_deadline": "2025-09-25", "event_start": "2026-04-24" }
+      ]
+    },
+    {
+      "id": "acl-2026",
+      "name": "Annual Meeting of the Association for Computational Linguistics",
+      "acronym": "ACL",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 196,
+      "categories": ["nlp", "computational-linguistics", "machine-learning"],
+      "description": "Flagship NLP conference. Long and short paper tracks plus a findings sub-venue.",
+      "homepage": "https://aclweb.org",
+      "cfp_url": "https://2026.aclweb.org/calls/main_conference/",
+      "submission_system": "openreview",
+      "proceedings_publisher": "ACL Anthology",
+      "location": { "city": "Toronto", "country": "CA", "mode": "in-person" },
+      "deadlines": {
+        "paper": { "date": "2026-02-15T23:59:00-07:00", "status": "confirmed" }
+      },
+      "event_dates": { "start": "2026-07-26", "end": "2026-07-31" },
+      "acceptance_rate": "23%",
+      "history": [
+        { "year": 2025, "paper_deadline": "2025-02-15", "event_start": "2025-07-27" }
+      ]
+    },
+    {
+      "id": "emnlp-2026",
+      "name": "Conference on Empirical Methods in Natural Language Processing",
+      "acronym": "EMNLP",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 178,
+      "categories": ["nlp", "machine-learning"],
+      "description": "Empirical-results focused NLP conference; the year's second major NLP venue.",
+      "homepage": "https://2026.emnlp.org",
+      "cfp_url": "https://2026.emnlp.org/calls/main_conference/",
+      "submission_system": "openreview",
+      "proceedings_publisher": "ACL Anthology",
+      "location": { "city": "Singapore", "country": "SG", "mode": "hybrid" },
+      "deadlines": {
+        "paper": { "date": "2026-06-15T23:59:00-07:00", "status": "expected" }
+      },
+      "event_dates": { "start": "2026-11-08", "end": "2026-11-12" },
+      "acceptance_rate": "23%",
+      "history": [
+        { "year": 2025, "paper_deadline": "2025-06-15", "event_start": "2025-11-09" }
+      ]
+    },
+    {
+      "id": "cvpr-2027",
+      "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "acronym": "CVPR",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 440,
+      "categories": ["computer-vision", "deep-learning", "machine-learning"],
+      "description": "Largest and highest-impact computer vision venue. Single-blind reviewing.",
+      "homepage": "https://cvpr.thecvf.com",
+      "cfp_url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+      "submission_system": "openreview",
+      "proceedings_publisher": "IEEE",
+      "location": { "city": "Seattle", "country": "US", "mode": "in-person" },
+      "deadlines": {
+        "paper": { "date": "2026-11-14T23:59:00-08:00", "status": "expected" }
+      },
+      "event_dates": { "start": "2027-06-21", "end": "2027-06-26" },
+      "acceptance_rate": "23%",
+      "history": [
+        { "year": 2026, "paper_deadline": "2025-11-14", "event_start": "2026-06-10" }
+      ]
+    },
+    {
+      "id": "iccv-2027",
+      "name": "International Conference on Computer Vision",
+      "acronym": "ICCV",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 244,
+      "categories": ["computer-vision", "deep-learning"],
+      "description": "Biennial top-tier CV venue (alternating with ECCV). Held in odd years.",
+      "homepage": "https://iccv.thecvf.com",
+      "cfp_url": "https://iccv.thecvf.com/Conferences/2027/CallForPapers",
+      "submission_system": "openreview",
+      "proceedings_publisher": "IEEE",
+      "location": { "city": "Munich", "country": "DE", "mode": "in-person" },
+      "deadlines": {
+        "paper": { "date": "2027-03-08T23:59:00-08:00", "status": "expected" }
+      },
+      "event_dates": { "start": "2027-10-18", "end": "2027-10-22" },
+      "acceptance_rate": "26%",
+      "history": [
+        { "year": 2025, "paper_deadline": "2025-03-08", "event_start": "2025-10-19" }
+      ]
+    },
+    {
+      "id": "aaai-2027",
+      "name": "AAAI Conference on Artificial Intelligence",
+      "acronym": "AAAI",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 186,
+      "categories": ["ai", "machine-learning", "knowledge-representation"],
+      "description": "Broad AI venue covering ML, reasoning, planning, and applications. Two-phase reviewing.",
+      "homepage": "https://aaai.org/conference/aaai/",
+      "cfp_url": "https://aaai.org/Conferences/AAAI-27/CallForPapers",
+      "submission_system": "openreview",
+      "proceedings_publisher": "AAAI Press",
+      "location": { "city": "Philadelphia", "country": "US", "mode": "in-person" },
+      "deadlines": {
+        "abstract": { "date": "2026-08-08T23:59:00-08:00", "status": "expected" },
+        "paper":    { "date": "2026-08-15T23:59:00-08:00", "status": "expected" }
+      },
+      "event_dates": { "start": "2027-02-04", "end": "2027-02-11" },
+      "acceptance_rate": "23%",
+      "history": [
+        { "year": 2026, "paper_deadline": "2025-08-15", "event_start": "2026-01-27" }
+      ]
+    },
+    {
+      "id": "kdd-2026",
+      "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "acronym": "KDD",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 155,
+      "categories": ["data-mining", "machine-learning", "applied-ml"],
+      "description": "Top data mining and applied ML venue. Research and applied data science tracks.",
+      "homepage": "https://www.kdd.org",
+      "cfp_url": "https://kdd2026.kdd.org/calls-for-papers/",
+      "submission_system": "openreview",
+      "proceedings_publisher": "ACM",
+      "location": { "city": "Toronto", "country": "CA", "mode": "in-person" },
+      "deadlines": {
+        "paper": { "date": "2026-02-08T23:59:00-08:00", "status": "confirmed" }
+      },
+      "event_dates": { "start": "2026-08-09", "end": "2026-08-13" },
+      "acceptance_rate": "20%",
+      "history": [
+        { "year": 2025, "paper_deadline": "2025-02-08", "event_start": "2025-08-03" }
+      ]
+    },
+    {
+      "id": "www-2027",
+      "name": "ACM Web Conference",
+      "acronym": "WWW",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 158,
+      "categories": ["information-retrieval", "data-mining", "web", "applied-ml"],
+      "description": "Premier venue for web-scale ML, IR, social systems, and security.",
+      "homepage": "https://www2027.thewebconf.org",
+      "cfp_url": "https://www2027.thewebconf.org/calls/research-tracks/",
+      "submission_system": "openreview",
+      "proceedings_publisher": "ACM",
+      "location": { "city": "Sydney", "country": "AU", "mode": "in-person" },
+      "deadlines": {
+        "paper": { "date": "2026-10-10T23:59:00-07:00", "status": "expected" }
+      },
+      "event_dates": { "start": "2027-04-19", "end": "2027-04-23" },
+      "acceptance_rate": "18%",
+      "history": [
+        { "year": 2026, "paper_deadline": "2025-10-10", "event_start": "2026-04-13" }
+      ]
+    },
+    {
+      "id": "osdi-2026",
+      "name": "USENIX Symposium on Operating Systems Design and Implementation",
+      "acronym": "OSDI",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 108,
+      "categories": ["systems", "operating-systems", "distributed-systems"],
+      "description": "Flagship systems venue (alternates with SOSP). Double-blind, three-round reviewing.",
+      "homepage": "https://www.usenix.org/conferences/byname/179",
+      "cfp_url": "https://www.usenix.org/conference/osdi26/call-for-papers",
+      "submission_system": "hotcrp",
+      "proceedings_publisher": "USENIX",
+      "location": { "city": "Boston", "country": "US", "mode": "in-person" },
+      "deadlines": {
+        "paper": { "date": "2026-05-30T23:59:00-07:00", "status": "confirmed" }
+      },
+      "event_dates": { "start": "2026-11-02", "end": "2026-11-04" },
+      "acceptance_rate": "16%",
+      "history": [
+        { "year": 2024, "paper_deadline": "2024-05-30", "event_start": "2024-07-10" }
+      ]
+    },
+    {
+      "id": "ijcai-2026",
+      "name": "International Joint Conference on Artificial Intelligence",
+      "acronym": "IJCAI",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 149,
+      "categories": ["ai", "machine-learning", "knowledge-representation", "planning"],
+      "description": "Broad AI conference with strong emphasis on classical AI alongside ML.",
+      "homepage": "https://www.ijcai.org",
+      "cfp_url": "https://ijcai-26.org/call-for-papers/",
+      "submission_system": "cmt",
+      "proceedings_publisher": "IJCAI Organization",
+      "location": { "city": "Montreal", "country": "CA", "mode": "in-person" },
+      "deadlines": {
+        "paper": { "date": "2026-01-20T23:59:00-08:00", "status": "confirmed" }
+      },
+      "event_dates": { "start": "2026-08-22", "end": "2026-08-28" },
+      "acceptance_rate": "14%",
+      "history": [
+        { "year": 2025, "paper_deadline": "2025-01-20", "event_start": "2025-08-16" }
+      ]
+    },
+    {
+      "id": "sigir-2026",
+      "name": "ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "acronym": "SIGIR",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 110,
+      "categories": ["information-retrieval", "nlp", "machine-learning"],
+      "description": "Top IR venue. Search, ranking, evaluation, and recently RAG-adjacent retrieval.",
+      "homepage": "https://sigir.org",
+      "cfp_url": "https://sigir2026.org/call-for-papers/",
+      "submission_system": "openreview",
+      "proceedings_publisher": "ACM",
+      "location": { "city": "Seoul", "country": "KR", "mode": "in-person" },
+      "deadlines": {
+        "paper": { "date": "2026-01-22T23:59:00-08:00", "status": "confirmed" }
+      },
+      "event_dates": { "start": "2026-07-12", "end": "2026-07-16" },
+      "acceptance_rate": "19%",
+      "history": [
+        { "year": 2025, "paper_deadline": "2025-01-22", "event_start": "2025-07-13" }
+      ]
+    },
+    {
+      "id": "chi-2027",
+      "name": "ACM CHI Conference on Human Factors in Computing Systems",
+      "acronym": "CHI",
+      "kind": "conference",
+      "tier": "A*",
+      "h_index": 161,
+      "categories": ["hci", "design", "applied-ml"],
+      "description": "Top human-computer interaction venue. Wide methodological diversity.",
+      "homepage": "https://chi2027.acm.org",
+      "cfp_url": "https://chi2027.acm.org/papers/",
+      "submission_system": "pcs",
+      "proceedings_publisher": "ACM",
+      "location": { "city": "Yokohama", "country": "JP", "mode": "in-person" },
+      "deadlines": {
+        "paper": { "date": "2026-09-10T23:59:00-07:00", "status": "expected" }
+      },
+      "event_dates": { "start": "2027-05-01", "end": "2027-05-06" },
+      "acceptance_rate": "26%",
+      "history": [
+        { "year": 2026, "paper_deadline": "2025-09-11", "event_start": "2026-04-25" }
+      ]
+    },
+    {
+      "id": "jmlr",
+      "name": "Journal of Machine Learning Research",
+      "acronym": "JMLR",
+      "kind": "journal",
+      "h_index": 187,
+      "categories": ["machine-learning", "theory"],
+      "description": "Open-access flagship ML journal. Rolling submissions, no page limits, free to publish and read.",
+      "homepage": "https://jmlr.org",
+      "cfp_url": "https://jmlr.org/author-info.html",
+      "submission_system": "other",
+      "proceedings_publisher": "MIT Press / JMLR Inc.",
+      "deadlines": {
+        "paper": { "date": null, "status": "rolling" }
+      },
+      "history": []
+    },
+    {
+      "id": "tpami",
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "acronym": "TPAMI",
+      "kind": "journal",
+      "h_index": 349,
+      "categories": ["computer-vision", "machine-learning", "pattern-recognition"],
+      "description": "Highest-impact CV/PR journal. Rolling submissions; turnaround often 6–12 months.",
+      "homepage": "https://www.computer.org/csdl/journal/tp",
+      "cfp_url": "https://www.computer.org/csdl/journal/tp/author-resources",
+      "submission_system": "other",
+      "proceedings_publisher": "IEEE",
+      "deadlines": {
+        "paper": { "date": null, "status": "rolling" }
+      },
+      "history": []
+    },
+    {
+      "id": "ijcv",
+      "name": "International Journal of Computer Vision",
+      "acronym": "IJCV",
+      "kind": "journal",
+      "h_index": 189,
+      "categories": ["computer-vision"],
+      "description": "Companion journal to TPAMI focusing exclusively on computer vision. Rolling submissions.",
+      "homepage": "https://link.springer.com/journal/11263",
+      "cfp_url": "https://www.springer.com/journal/11263/submission-guidelines",
+      "submission_system": "other",
+      "proceedings_publisher": "Springer",
+      "deadlines": {
+        "paper": { "date": null, "status": "rolling" }
+      },
+      "history": []
+    },
+    {
+      "id": "csur",
+      "name": "ACM Computing Surveys",
+      "acronym": "CSUR",
+      "kind": "journal",
+      "h_index": 221,
+      "categories": ["surveys", "computer-science"],
+      "description": "Premier venue for comprehensive survey articles across computer science.",
+      "homepage": "https://dl.acm.org/journal/csur",
+      "cfp_url": "https://dl.acm.org/journal/csur/author-guidelines",
+      "submission_system": "other",
+      "proceedings_publisher": "ACM",
+      "deadlines": {
+        "paper": { "date": null, "status": "rolling" }
+      },
+      "history": []
+    }
+  ]
+}
